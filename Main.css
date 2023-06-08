@@ -50,7 +50,7 @@ html,body {
 }
 
 #guck{
-    font-size: 5.5rem;
+    font-size: 4.6rem;
 }
 
 .slider-text1 {
@@ -124,13 +124,12 @@ a {
     text-transform: uppercase;
 } @media(max-width: 768px) {
     .logo {
-/*       margin-left: 5px; */
+      margin-left: 5px;
     }
 }
 
 #navbar ul {
     display: inline-block;
-    float: right;
     list-style: none;
     /* margin-right: 14px; */
     margin-top: -2px;
