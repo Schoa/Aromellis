@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0" />
+	<title>Text Animation</title>
+	
+	<style>
+		span::before {
+			content: "Geeks";
+			animation: animate infinite 3s;
+			padding-left: 10px;
+		}
+
+		@keyframes animate {
+
+			0% {
+				content: "Geeks";
+			}
+
+			50% {
+				content: "for";
+			}
+
+			75% {
+				content: "Geeks";
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<h1><span> </span></h1>
+</body>
+
+</html>
