@@ -7,15 +7,16 @@ html,body {
 
 .bruh{
     font-family: 'Oswald', sans-serif;
+    color:#CECBC8;
 }
 
 .about{
-    color: #111111;
+    color:#CECBC8;
     text-align: justify;
     margin: 2rem;
     margin-left: 10vw;
     margin-right: 38vw;
-    font-size: 3vh;
+    font-size: 2vh;
 }
 
 .content {
@@ -28,7 +29,7 @@ html,body {
 }
 
 .slider-wrapper {
-    color: #111111;
+    color:#CECBC8;
     font-size: 4rem;
     font-weight: bold;
     text-transform: uppercase;
@@ -44,7 +45,7 @@ html,body {
 }
 
 .slider div {
-    color:#ff2800;
+    color:#28221E;
     height: 50px;
     margin-bottom: 50px;
     padding: 2px 15px;
@@ -80,7 +81,7 @@ html,body {
 }
 
 body {
-    background: rgb(250, 250, 250) url(http://lorempixel.com/1920/1080/nature/);
+    background: #614E41;
 }
 
 a {
@@ -96,7 +97,7 @@ a {
 ======================================================*/
 #navbar {
     font-family: 'Oswald', sans-serif;
-    background: #FFD700;
+    background: #28221E;
     color: rgb(13, 26, 38);
     position: fixed;
     top: 0;
@@ -157,7 +158,7 @@ a {
 }
 
 #navbar li a {
-    color: rgb(13, 26, 38);
+    color: #CECBC8;
     display: block;
     font-size: 1em;
     height: 50px;
@@ -228,7 +229,7 @@ a {
 
 /* Icon Bars */
 .icon-bars {
-    background: rgb(13, 26, 38);
+    background-color: #CECBC8;
     position: absolute;
     left: 1px;
     top: 45%;
@@ -239,7 +240,7 @@ a {
 } 
 
 .icon-bars::before {
-    background: rgb(13, 26, 38);
+    background: #CECBC8;;
     content: '';
     position: absolute;
     left: 0;
@@ -254,7 +255,7 @@ a {
 
 .icon-bars::after {
     margin-top: 0px;
-    background: rgb(13, 26, 38);
+    background: #CECBC8;
     content: '';
     position: absolute;
     left: 0;
@@ -269,7 +270,7 @@ a {
 
 /* Bars Shadows */
 .icon-bars.overlay {
-    background: rgb(97, 114, 129);
+    background: #CECBC8;;
     background: rgb(183, 199, 211);
     width: 20px;
     animation: middleBar 3s infinite 0.5s;
@@ -285,7 +286,7 @@ a {
     }
 
 .icon-bars.overlay::before {
-    background: rgb(97, 114, 129);
+    background: #CECBC8;;
     background: rgb(183, 199, 211);
     width: 10px;
     animation: topBar 3s infinite 0.2s;
@@ -301,8 +302,8 @@ a {
     }
 
 .icon-bars.overlay::after {
-    background: rgb(97, 114, 129);
-    background: rgb(183, 199, 211);
+    color: #CECBC8;
+    background: #CECBC8;;
     width: 15px;
     animation: bottomBar 3s infinite 1s;
     -webkit-animation: bottomBar 3s infinite 1s;
@@ -350,8 +351,8 @@ a {
                     Responsive Mobile Menu 
 ======================================================*/
 .overlay-menu {
-    background: lightblue;
-    color: rgb(13, 26, 38);
+    background: #28221E;
+    color: #CECBC8;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -387,7 +388,7 @@ a {
 
 .overlay-menu li a:hover,
 .overlay-menu li a:active {
-    color: rgb(28, 121, 184);
+    color: #CECBC8;
     -webkit-transition: color 0.3s ease;
     transition: color 0.3s ease;
 }
