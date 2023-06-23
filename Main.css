@@ -15,7 +15,7 @@ html,body {
     text-align: justify;
     margin: 2rem;
     margin-left: 10vw;
-    margin-right: 38vw;
+    margin-right: 48vw;
     font-size: 2vh;
 }
 
@@ -33,14 +33,10 @@ html,body {
     font-size: 4rem;
     font-weight: bold;
     text-transform: uppercase;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .slider{
     height: 95px;
-    padding-left:15px;
     overflow: hidden;
 }
 
@@ -54,7 +50,7 @@ html,body {
 }
 
 #guck{
-    font-size: 4.6rem;
+    font-size: 6rem;
 }
 
 .slider-text1 {
@@ -174,7 +170,7 @@ a {
 
 #navbar li a:hover {
     /* border-bottom: 1px solid rgb(28, 121, 184); */
-    color: rgb(28, 121, 184);
+    color: green;
     transition: all 1s ease;
     -webkit-transition: all 1s ease;
 }
@@ -186,7 +182,7 @@ a {
     width: 0%;
     height: 1px;
     bottom: -1px;
-    background: rgb(13, 26, 38);
+    background: whitesmoke;
 }
 
 #navbar li a:before {
@@ -195,13 +191,13 @@ a {
 }
 
 #navbar li a:after {
-    background: rgb(13, 26, 38);
+    background: whitesmoke;
     right: 0;
     /* transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1); */
 }
 
 #navbar li a:hover:before {
-    background: rgb(13, 26, 38);
+    background: whitesmoke;
     width: 100%;
     transition: width 0.5s cubic-bezier((0.22, 0.61, 0.36, 1));
 }

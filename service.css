@@ -1,10 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
-html,body {
-    margin: 0;
-    width: 100%;
-    height: 100%;
-    font-family: 'Oswald', sans-serif;
-}
 
 * {
     border: 0;
@@ -14,7 +8,7 @@ html,body {
 }
 
 body {
-    background: rgb(250, 250, 250) url(http://lorempixel.com/1920/1080/nature/);
+    background: #614E41;
 }
 
 a {
@@ -29,7 +23,8 @@ a {
                         Navbar
 ======================================================*/
 #navbar {
-    background: #FFD700;
+    font-family: 'Oswald', sans-serif;
+    background: #28221E;
     color: rgb(13, 26, 38);
     position: fixed;
     top: 0;
@@ -90,7 +85,7 @@ a {
 }
 
 #navbar li a {
-    color: rgb(13, 26, 38);
+    color: #CECBC8;
     display: block;
     font-size: 1em;
     height: 50px;
@@ -106,7 +101,7 @@ a {
 
 #navbar li a:hover {
     /* border-bottom: 1px solid rgb(28, 121, 184); */
-    color: rgb(28, 121, 184);
+    color: green;
     transition: all 1s ease;
     -webkit-transition: all 1s ease;
 }
@@ -118,7 +113,7 @@ a {
     width: 0%;
     height: 1px;
     bottom: -1px;
-    background: rgb(13, 26, 38);
+    background: whitesmoke;
 }
 
 #navbar li a:before {
@@ -127,13 +122,13 @@ a {
 }
 
 #navbar li a:after {
-    background: rgb(13, 26, 38);
+    background: whitesmoke;
     right: 0;
     /* transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1); */
 }
 
 #navbar li a:hover:before {
-    background: rgb(13, 26, 38);
+    background: whitesmoke;
     width: 100%;
     transition: width 0.5s cubic-bezier((0.22, 0.61, 0.36, 1));
 }
@@ -161,7 +156,7 @@ a {
 
 /* Icon Bars */
 .icon-bars {
-    background: rgb(13, 26, 38);
+    background-color: #CECBC8;
     position: absolute;
     left: 1px;
     top: 45%;
@@ -172,7 +167,7 @@ a {
 } 
 
 .icon-bars::before {
-    background: rgb(13, 26, 38);
+    background: #CECBC8;;
     content: '';
     position: absolute;
     left: 0;
@@ -187,7 +182,7 @@ a {
 
 .icon-bars::after {
     margin-top: 0px;
-    background: rgb(13, 26, 38);
+    background: #CECBC8;
     content: '';
     position: absolute;
     left: 0;
@@ -202,7 +197,7 @@ a {
 
 /* Bars Shadows */
 .icon-bars.overlay {
-    background: rgb(97, 114, 129);
+    background: #CECBC8;;
     background: rgb(183, 199, 211);
     width: 20px;
     animation: middleBar 3s infinite 0.5s;
@@ -218,7 +213,7 @@ a {
     }
 
 .icon-bars.overlay::before {
-    background: rgb(97, 114, 129);
+    background: #CECBC8;;
     background: rgb(183, 199, 211);
     width: 10px;
     animation: topBar 3s infinite 0.2s;
@@ -234,8 +229,8 @@ a {
     }
 
 .icon-bars.overlay::after {
-    background: rgb(97, 114, 129);
-    background: rgb(183, 199, 211);
+    color: #CECBC8;
+    background: #CECBC8;;
     width: 15px;
     animation: bottomBar 3s infinite 1s;
     -webkit-animation: bottomBar 3s infinite 1s;
@@ -283,8 +278,8 @@ a {
                     Responsive Mobile Menu 
 ======================================================*/
 .overlay-menu {
-    background: lightblue;
-    color: rgb(13, 26, 38);
+    background: #28221E;
+    color: #CECBC8;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -320,7 +315,7 @@ a {
 
 .overlay-menu li a:hover,
 .overlay-menu li a:active {
-    color: rgb(28, 121, 184);
+    color: #CECBC8;
     -webkit-transition: color 0.3s ease;
     transition: color 0.3s ease;
 }
