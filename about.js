@@ -29,3 +29,9 @@
                 toggleIcon.className = 'menuIcon';
             }
         });
+
+const image = document.querySelector('.image img');
+
+window.onload = function() {
+	image.style.transform = "translateX(0)";
+}
