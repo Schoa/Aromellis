@@ -48,7 +48,6 @@ a {
     }
 } 
 
-
 .logo {
     float: left;
     margin-left: 28px;
@@ -63,11 +62,8 @@ a {
 }
 
 #navbar ul {
-    display: inline-block;
     list-style: none;
-    /* margin-right: 14px; */
-    margin-top: -2px;
-    text-align: right;
+    float: inherit;
     transition: transform 0.5s ease-out;
     -webkit-transition: transform 0.5s ease-out;
 } @media(max-width: 640px) {
@@ -76,12 +72,13 @@ a {
     }
 } @media(orientation: landscape) {
     #navbar ul {
-        display: inline-block;
+        display: flex;
     }
 }
 
 #navbar li {
-    display: inline-block;
+    display: flex;
+    padding-left: 5vw;
 }
 
 #navbar li a {
@@ -92,7 +89,6 @@ a {
     letter-spacing: 1px;
     margin: 0 20px;
     padding: 0 4px;
-    position: relative;
     text-decoration: none;
     text-transform: uppercase;
     transition: all 0.5s ease;
@@ -100,43 +96,10 @@ a {
 }
 
 #navbar li a:hover {
-    /* border-bottom: 1px solid rgb(28, 121, 184); */
+    border-bottom: 1px solid whitesmoke;
     color: green;
     transition: all 1s ease;
     -webkit-transition: all 1s ease;
-}
-
-/* Animated Bottom Line */
-#navbar li a:before, #navbar li a:after {
-    content: '';
-    position: absolute;
-    width: 0%;
-    height: 1px;
-    bottom: -1px;
-    background: whitesmoke;
-}
-
-#navbar li a:before {
-    left: 0;
-    transition: 0.5s;
-}
-
-#navbar li a:after {
-    background: whitesmoke;
-    right: 0;
-    /* transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1); */
-}
-
-#navbar li a:hover:before {
-    background: whitesmoke;
-    width: 100%;
-    transition: width 0.5s cubic-bezier((0.22, 0.61, 0.36, 1));
-}
-
-#navbar li a:hover:after {
-    background: transparent;
-    width: 100%;
-    /* transition: 0s; */
 }
 
 /*======================================================
@@ -318,6 +281,48 @@ a {
     color: #CECBC8;
     -webkit-transition: color 0.3s ease;
     transition: color 0.3s ease;
+}
+
+.dropdown {
+    font-family: 'Oswald', sans-serif;
+    padding-left: 5vw;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: #CECBC8;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 
 /* Google Font CDN Link */
