@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
 * {
     border: 0;
     box-sizing: border-box;
@@ -31,7 +31,7 @@ a {
                         Navbar
 ======================================================*/
 #navbar {
-    font-family: 'Oswald', sans-serif;
+    font-family: sans-serif;
     background: #28221E;
     color: rgb(13, 26, 38);
     position: fixed;
@@ -292,7 +292,7 @@ a {
 }
 
 .dropdown {
-    font-family: 'Oswald', sans-serif;
+    font-family: sans-serif;
     padding-left: 5vw;
 }
 
@@ -372,7 +372,8 @@ h2{
     text-align: center;
     margin-top: 1px;
     margin-bottom: 5vh;
-    color: #964B00;
+    color: rgb(40, 34, 30);
+    cursor: pointer;
 }
 
 p{
@@ -557,4 +558,12 @@ p{
     height: 300px;
     margin-top: 20px;
     box-shadow: 3px 3px 3px #383838;
+}
+
+.intro{
+    margin: 3rem;
+    padding-top: 13vh;
+    font-size: 1.2rem;
+    color: #CECBC8;
+    font-family: 'Oswald', sans-serif;
 }
