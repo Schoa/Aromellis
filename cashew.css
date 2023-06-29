@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
 
 * {
     border: 0;
@@ -298,7 +297,7 @@ a {
 }
 
 .dropdown .dropbtn {
-    font-size: 16px;  
+    font-size: 20px;  
     border: none;
     outline: none;
     color: #CECBC8;
@@ -337,178 +336,225 @@ a {
 .alle{
     padding-top: 3vh;
     margin: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1rem;
 }
 
-#hyojin{
-    margin-left:auto;
-    margin-right:auto;
-    padding: 1rem;
-    width: 220px;
-    background-color: white;
-    color: #383838;
-    font-size: 15px;
-    text-align: center;
-    margin-top: 13vh;
-    box-shadow: 3px 3px 3px #D0D0D0;
+.alle-eins{
+    order: 1;
+    align-self: baseline;
+}
+
+.alle-zwei{
+    order: 2;
+    align-self: baseline;
+}
+
+.alle-drei{
+    order: 3;
+    align-self: baseline;
+}
+
+.alle-vier{
+    order: 4;
+    align-self: baseline;
+}
+
+.alle-funf{
+    order: 5;
+    align-self: baseline;
 }
 
 h2{	
     text-align: center;
     margin-top: 1px;
     margin-bottom: 5vh;
+    color: #964B00;
 }
 
 p{
   font-size: 14px;
 }
 
-.W180{
-    background-color: #28221E;
+.WW180{
+    background-image: url(https://kimmyfarm.com/wp-content/uploads/2020/12/hat-dieu-nhan-trang-tieu-chuan-ww180-6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 10px;
     margin-bottom: 50px;
     padding: 40px;
     width: 250px;
     height: 300px;
     margin-top: 20px;
-    color: white;
     box-shadow: 3px 3px 3px #383838;
 }
 
 .WW210{
-    background-color: #28221E;
+    background-image: url(https://huynhgia.vn/wp-content/uploads/2021/04/hat-dieu-nhan-trang-tieu-chuan-ww210-hang-xuat-khau-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 10px;
     margin-bottom: 50px;
     padding: 40px;
     width: 250px;
     height: 300px;
     margin-top: 20px;
-    color: white;
     box-shadow: 3px 3px 3px #383838;
 }
 
 .W240{
-    background-color: #28221E;
-    background-size: 500px;
+    background-image: url(https://kimmyfarm.com/wp-content/uploads/2020/12/hat-dieu-nhan-trang-tieu-chuan-ww240-hang-xuat-khau.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 10px;
     margin-bottom: 50px;
     padding: 40px;
     width: 250px;
     height: 300px;
     margin-top: 20px;
-    color: white;
     box-shadow: 3px 3px 3px #383838;
 }
 
 .W320{
-    background-color: #28221E;
+    background-image: url(https://visimex.com/wp-content/uploads/2020/03/ww320-cashew-nuts-500x500-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 10px;
     margin-bottom: 50px;
     padding: 40px;
     width: 250px;
     height: 300px;
-    color: white;
+    margin-top: 20px;
     box-shadow: 3px 3px 3px #383838;
 }
 
 .SP{
-    background-color: #28221E;
+    background-image: url(https://kimmyfarm.com/wp-content/uploads/2020/12/hat-dieu-nhan-loai-manh-vo-nhan-nho-cashew-nut-sp-viet-nam.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 10px;
     margin-bottom: 50px;
     padding: 40px;
     width: 250px;
     height: 300px;
-    color: white;
+    margin-top: 20px;
     box-shadow: 3px 3px 3px #383838;
 }
 
 .SW1{
-    background-color: #28221E;
+    background-image: url(https://5.imimg.com/data5/SELLER/Default/2023/2/GZ/NG/QO/184689374/sw-1-2-cashew-nut-500x500.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 10px;
     margin-bottom: 50px;
     padding: 40px;
     width: 250px;
-    height: 360px;
-    color: white;
+    height: 300px;
+    margin-top: 20px;
     box-shadow: 3px 3px 3px #383838;
 }
 
 .WB{
-    background-color: #28221E;
+    background-image: url(https://kimmyfarm.com/wp-content/uploads/2020/12/hat-dieu-nhan-trang-vo-doi-wb-cashew-wb-viet-nam-hang-xuat-khau-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 10px;
     margin-bottom: 50px;
     padding: 40px;
     width: 250px;
     height: 300px;
-    color: white;
+    margin-top: 20px;
     box-shadow: 3px 3px 3px #383838;
 }
 
 .W450{
-    padding-top: 10vh;
-    background-color: #28221E;
+    background-image: url(https://kimmyfarm.com/wp-content/uploads/2020/12/hat-dieu-nhan-trang-tieu-chuan-ww450-hang-xuat-khau.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 10px;
     margin-bottom: 50px;
     padding: 40px;
     width: 250px;
     height: 300px;
-    color: white;
+    margin-top: 20px;
     box-shadow: 3px 3px 3px #383838;
 }
 
 .LP{
-    background-color: #28221E;
+    background-image: url(https://kimmyfarm.com/wp-content/uploads/2020/12/hat-dieu-nhan-manh-vo-nhan-lon-cashew-lp-viet-nam-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 10px;
     margin-bottom: 50px;
     padding: 40px;
     width: 250px;
     height: 300px;
-    color: white;
+    margin-top: 20px;
     box-shadow: 3px 3px 3px #383838;
 }
 
 .DW{
-    background-color: #28221E;
+    background-image: url(https://5.imimg.com/data5/ZD/AW/OB/SELLER-26472419/dw-grade-cashew-nut.jpg);
+    background-position: center;
     border-radius: 10px;
     margin-bottom: 50px;
     padding: 40px;
     width: 250px;
     height: 300px;
-    color: white;
+    margin-top: 20px;
     box-shadow: 3px 3px 3px #383838;
 }
 
 .WS{
-    background-color: #28221E;
-    background-size: 500px;
+    background-image: url(https://vimanfoods.net/wp-content/uploads/2021/05/cashew-split.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 10px;
     margin-bottom: 50px;
     padding: 40px;
     width: 250px;
-    height: 330px;
-    color: white;
+    height: 300px;
+    margin-top: 20px;
     box-shadow: 3px 3px 3px #383838;
 }
 
 .BB{
-    background-color: #28221E;
-    background-size: 500px;
+    background-image: url(https://didwblovvwmoz.cloudfront.net/product_images/1662156/1275026/live/featured_image/128c5f96a6521d63aae01e3bcda3_900_900.jpeg?format=webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 10px;
     margin-bottom: 50px;
     padding: 40px;
     width: 250px;
     height: 300px;
-    color: white;
+    margin-top: 20px;
     box-shadow: 3px 3px 3px #383838;
 }
 
 .SK{
-    background-color: #28221E;
-    background-size: 500px;
+    background-image: url(https://didwblovvwmoz.cloudfront.net/product_images/1662156/1285357/live/featured_image/1d95a1da158d22fc92d27b5ad698_900_900.jpeg?format=webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 10px;
     margin-bottom: 50px;
     padding: 40px;
     width: 250px;
     height: 300px;
-    color: white;
+    margin-top: 20px;
     box-shadow: 3px 3px 3px #383838;
 }
