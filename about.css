@@ -377,19 +377,22 @@ a {
 .text h2{
   font-size: 90px;
   font-weight: 600;
+  color: #28221E;
 }
 .text h5{
   font-size: 22px;
   font-weight: 500;
   margin-bottom: 20px;
+  color: #28221E;
 }
 span{
-  color: #4070f4;
+  color: #28221E;
 }
 .text p{
   font-size: 18px;
   line-height: 25px;
   letter-spacing: 1px;
+  color: #CECBC8;
 }
 .data{
   margin-top: 30px;
