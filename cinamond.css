@@ -156,3 +156,8 @@ button:active {
 	transform: scale(1);
 	-webkit-appearance: none;
 }
+
+p{
+	color: white;
+	margin: 5rem;
+}
