@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
 
+body::-webkit-scrollbar{
+    display: none;
+}
+  
+body {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
 * {
     border: 0;
     box-sizing: border-box;

@@ -4,6 +4,15 @@ html,body {
     height: 100%;
 }
 
+body::-webkit-scrollbar{
+    display: none;
+}
+  
+body {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
 #picz{
     border-radius: 5%;
     height: auto;
