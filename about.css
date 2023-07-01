@@ -335,73 +335,74 @@ a {
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
-
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
-
-.about-us{  
+.about-us{
   height: 100vh;
   width: 100%;
-  padding: 55px 0;
-  color: #CECBC8;
+  padding: 90px 0;
+  background: #614E41;
 }
-
+.about-us{
+    display: flex;
+}
 .pic{
-  height: auto;
-  width:  302px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45vw;
+    height: 70vh;
+    object-fit: none;
 }
-
 .about{
   width: 1130px;
   max-width: 85%;
-  margin: 0 7rem;
+  margin: 0 auto;
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
 }
-
 .text{
   width: 540px;
 }
-
 .text h2{
   font-size: 90px;
   font-weight: 600;
-  margin-bottom: 10px;
-
 }
-
 .text h5{
   font-size: 22px;
   font-weight: 500;
   margin-bottom: 20px;
 }
-
 span{
-  color: #28221E;
+  color: #4070f4;
 }
-
 .text p{
   font-size: 18px;
   line-height: 25px;
   letter-spacing: 1px;
 }
-
-#cashew{
-    margin-top: 10vh;
-    border-radius: 25px;
-    object-fit: cover;
-    width: auto;
-    height: 40vh;
-    margin: 10px;
-    overflow: hidden;
+.data{
+  margin-top: 30px;
 }
-
-#text{
+.hire{
+  font-size: 18px;
+  background: #4070f4;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  padding: 8px 25px;
+  border-radius: 6px;
+  transition: 0.5s;
+}
+.hire:hover{
+  background: #000;
+  border: 1px solid #4070f4;
+}
+p{
     text-align: justify;
 }
