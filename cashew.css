@@ -428,27 +428,20 @@ a {
 
 }
 
-#container .product-details > p {
-    font-family: 'EB Garamond', serif;
-	text-align: center;
-	font-size: 18px;
-	color: #7d7d7d;
-	
-}
 .control{
 	position: absolute;
 	bottom: 20%;
 	left: 22.8%;
 	
 }
-.btn {
 
+.btn {
 	transform: translateY(0px);
 	transition: 0.3s linear;
 	background:  #809fff;
 	border-radius: 5px;
-  position: relative;
-  overflow: hidden;
+    position: relative;
+    overflow: hidden;
 	cursor: pointer;
 	outline: none;
 	border: none;
@@ -459,7 +452,8 @@ a {
 }
 
 .btn:hover{transform: translateY(-6px);
-	background: #1a66ff;}
+	background: #1a66ff
+}
 
 .btn span {
 	font-family: 'Farsan', cursive;
@@ -470,6 +464,7 @@ a {
 	margin:0;
 	
 }
+
 .btn .price, .shopping-cart{
 	background: #333;
 	border: 0;
@@ -494,8 +489,6 @@ a {
 .btn:hover .price {transform: translateX(-110%);}
 
 .btn:hover .shopping-cart {transform: translateX(0%);}
-
-
 
 .product-image {
 	transition: all 0.3s ease-out;
