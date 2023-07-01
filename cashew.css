@@ -382,8 +382,8 @@ a {
 	border-radius: 5px;
 	overflow: hidden;
 	margin: 5em auto;
-	height: 350px;
-	width: 700px;
+	height: 60vh;
+	width: 60vw;
 }
 
 .product-details {
