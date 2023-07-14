@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 html,body {
     margin: 0;
     width: 100%;
@@ -33,7 +32,7 @@ body {
 }
 
 .about{
-    font-family: 'Delius', cursive;
+    font-family: 'Roboto', sans-serif;
     color:#CECBC8;
     text-align: justify;
     margin: 2rem;
