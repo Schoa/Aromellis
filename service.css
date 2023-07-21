@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 * {
     border: 0;
     box-sizing: border-box;
@@ -331,4 +331,18 @@ body {
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+#idk{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 4rem;
+}
+
+.ah{
+    padding-top: 35vh;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
